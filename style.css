@@ -8,12 +8,13 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Inter', sans-serif;
 }
 
 #main {
     height: 100%;
     width: 100%;
-    background-color: rgb(208, 238, 202);
+    background-color: #f0f4f8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +36,7 @@ body {
     color: #fff;
     height: 100px;
     width: 100%;
-    background-color: rgb(72, 104, 72);
+    background-color:#1e3a8a;
 }
 
 .elem {
@@ -52,7 +53,7 @@ body {
 
 .box {
     padding: 10px 20px;
-    color: rgb(18, 119, 57);
+    color: #1f2937;
     border-radius: 5px;
     color: black;
     font-weight: 600;
@@ -79,13 +80,13 @@ body {
     justify-content: center;
     width: 60px;
     height: 60px;
-    background-color: rgb(72, 104, 72);
+    background-color: #3b82f6;
     color: white;
     border-radius: 50%;
     font-weight: 500;
 }
 
 .bubble:hover {
-    background-color: rgb(50, 75, 50);
+    background-color: #1d4ed8;
     cursor: pointer;
 }
